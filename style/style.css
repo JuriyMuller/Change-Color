@@ -1,0 +1,51 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+html{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit";
+    letter-spacing:2px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 300px;
+    text-align: center;
+}
+.output-color{
+    background-color: #2B3245;
+    color: #EAEAEA;
+    border-radius: 10px;
+    padding: 20px 10px;
+    
+}
+.title{
+   margin: 0;
+}
+.color{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.change-color{
+    margin-top: 20px;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    background-color: #2B3245;
+    color: #EAEAEA;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.change-color:hover{
+    background-color: #EAEAEA;
+    color: #315E72;
+    font-weight: 700;
+    transform: scale(1.1);
+}
